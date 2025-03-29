@@ -5,6 +5,8 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import Home from "./pages/Home";
+import RootLayout from "./layout/RootLayout";
 
 const App = () => {
   const myRoute = createBrowserRouter(
@@ -12,7 +14,7 @@ const App = () => {
       <>
         {/* with navbar */}
         <Route element={<RootLayout />}>
-          <Route index element={<d />} />
+          <Route index element={<Home />} />
           <Route path="" element={<d />} />
         </Route>
         {/* links */}
