@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import RootLayout from "./layout/RootLayout";
+import Login from "./pages/login";
+import SignIn from "./pages/SignIn";
 
 const App = () => {
   const myRoute = createBrowserRouter(
@@ -15,7 +17,8 @@ const App = () => {
         {/* with navbar */}
         <Route element={<RootLayout />}>
           <Route index element={<Home />} />
-          <Route path="" element={<d />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signIn" element={<SignIn />} />
         </Route>
         {/* links */}
         <Route></Route>
