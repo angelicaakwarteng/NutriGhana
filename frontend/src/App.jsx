@@ -8,7 +8,7 @@ import {
 import Home from "./pages/Home";
 import RootLayout from "./layout/RootLayout";
 import Login from "./pages/login";
-import SignIn from "./pages/SignIn";
+import SignIn from "./pages/Sign-in";
 
 const App = () => {
   const myRoute = createBrowserRouter(

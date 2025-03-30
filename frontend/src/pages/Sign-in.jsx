@@ -15,7 +15,7 @@ const SignIn = () => {
 
           {/* Welcome Text */}
           <h2 className="text-2xl font-medium">
-            Begin your nutrition <br /> journey!
+            Begin your nutrition journey!
           </h2>
 
           {/* Sign-up Buttons */}
