@@ -14,6 +14,7 @@ import ProfileHome from "./pages/ProfileHome";
 import ProfileDishes from "./pages/ProfileDishes";
 import ProfileStats from "./pages/ProfileStats";
 import ProfileUser from "./pages/ProfileUser";
+import SelectedFood from "./component/SelectedFood";
 // import Chatbox from "./component/Chatbox";
 
 const App = () => {
@@ -32,6 +33,8 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signIn" element={<SignIn />} />
+          <Route path="/selectedfood" element={<SelectedFood />} />
+
           {/* <Route path="/chatbox" element={<Chatbox />} /> */}
         </Route>
       </>
