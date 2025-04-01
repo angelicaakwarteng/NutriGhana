@@ -9,12 +9,14 @@ import Home from "./pages/Home";
 import RootLayout from "./layout/RootLayout";
 import Login from "./pages/login";
 import SignIn from "./pages/Sign-in";
+import Chatbox from "./component/Chatbox";
 
 const App = () => {
   const myRoute = createBrowserRouter(
     createRoutesFromElements(
       <>
         {/* with navbar */}
+        <Chatbox />
         <Route element={<RootLayout />}>
           <Route index element={<Home />} />
           <Route path="/login" element={<Login />} />
