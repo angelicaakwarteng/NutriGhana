@@ -3,7 +3,23 @@
 
 /*  */
 @theme {
-  --color-mint: #51b39a;
+  /* colors */
+  --color-pureWhite: #ffffff;
+  --color-sunKiss: #fef7ea;
+  --color-softPeach: #fcefd6;
+  --color-warmGlow: #fbe7c1;
+  --color-goldenMist: #f9dfac;
+  --color-honeyGold: #f6d083;
+  --color-amberSun: #f3c059;
+  --color-deepGold: #f0b030;
+  --color-bronzeCharm: #c08d26;
+  --color-burntOchre: #906a1d;
+  --color-darkCaramel: #604613;
+  --color-mochaBrown: #48350e;
+  --color-deepCocoa: #30230a;
+  --color-charcoalAsh: #181205;
+  --color-pureBlack: #000000;
+
   --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
