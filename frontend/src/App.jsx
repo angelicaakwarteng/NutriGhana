@@ -14,14 +14,13 @@ import ProfileHome from "./pages/ProfileHome";
 import ProfileDishes from "./pages/ProfileDishes";
 import ProfileStats from "./pages/ProfileStats";
 import ProfileUser from "./pages/ProfileUser";
-// import Chatbox from "./component/Chatbox";
+import Chatbox from "./component/Chatbox";
 
 const App = () => {
   const myRoute = createBrowserRouter(
     createRoutesFromElements(
       <>
         {/* with navbar */}
-        {/* <Chatbox /> */}
         <Route element={<RootLayout />}>
           <Route path="/profilehome" element={<ProfileHome />} />
           <Route path="/dishes" element={<ProfileDishes />} />
@@ -33,6 +32,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signIn" element={<SignIn />} />
+          <Route path="/chatbox" element={<Chatbox />} />
         </Route>
       </>
     )
