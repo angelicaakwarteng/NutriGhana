@@ -27,13 +27,13 @@ const App = () => {
           <Route path="/dishes" element={<ProfileDishes />} />
           <Route path="stats" element={<ProfileStats />} />
           <Route path="userprofile" element={<ProfileUser />} />
+          <Route path="/selectedfood" element={<SelectedFood />} />
         </Route>
         {/* links */}
         <Route>
           <Route index element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signIn" element={<SignIn />} />
-          <Route path="/selectedfood" element={<SelectedFood />} />
 
           {/* <Route path="/chatbox" element={<Chatbox />} /> */}
         </Route>
