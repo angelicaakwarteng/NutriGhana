@@ -7,7 +7,7 @@ import FoodLog from "../component/FoodLogCard";
 
 const ProfileHome = () => {
   return (
-    <div className="pt-18 px-4 bg-gray-100 min-h-screen">
+    <div className="pt-24 px-4 bg-gray-100 min-h-screen">
       {/* Header */}
       <div className="flex justify-between items-center">
         <h2 className="text-lg font-semibold text-gray-500">
