@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import picture from "../images/chatbox-icon.svg";
+import picture from "../assets/img/chatbox-icon.svg";
 import "../Chatbox.css";
 
 function Chatbox() {
