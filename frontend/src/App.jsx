@@ -8,13 +8,14 @@ import {
 import Home from "./pages/Home";
 import RootLayout from "./layout/RootLayout";
 import Login from "./pages/login";
-import SignIn from "./pages/Sign-in";
+
 // actual pages
 import ProfileHome from "./pages/ProfileHome";
 import ProfileDishes from "./pages/ProfileDishes";
 import ProfileStats from "./pages/ProfileStats";
 import ProfileUser from "./pages/ProfileUser";
 import SelectedFood from "./component/SelectedFood";
+import ProfileSetup from "./pages/ProfileSetup";
 // import Chatbox from "./component/Chatbox";
 
 const App = () => {
@@ -33,8 +34,8 @@ const App = () => {
         <Route>
           <Route index element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/signIn" element={<SignIn />} />
 
+          <Route path="/ProfileSetup" element={<ProfileSetup />} />
           {/* <Route path="/chatbox" element={<Chatbox />} /> */}
         </Route>
       </>
